@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1252009770408044}
+  m_IsPrefabAsset: 1
+--- !u!1 &1252009770408044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4775142914963574}
+  - component: {fileID: 114971706756439650}
+  - component: {fileID: 114023764932428058}
+  - component: {fileID: 114085541395359630}
+  - component: {fileID: 114467980958137630}
+  - component: {fileID: 114650742394476594}
+  - component: {fileID: 114053920862805090}
+  - component: {fileID: 114892211547117310}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: GSM
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4775142914963574
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252009770408044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 345.4281, y: 527.3764, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114023764932428058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252009770408044}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35e0a41bd4508849be0c9edd7456fd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Anim_test: {fileID: 0}
+--- !u!114 &114053920862805090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252009770408044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416cfa842a284ec428a6981e73bb670c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PUNKT_01: {fileID: 0}
+  PUNKT_02: {fileID: 0}
+  PUNKT_03: {fileID: 0}
+  PUNKT_04: {fileID: 0}
+  PUNKT_05: {fileID: 0}
+  PUNKT_06: {fileID: 0}
+  GM: {fileID: 0}
+--- !u!114 &114085541395359630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252009770408044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de5d24766512c2f4c88fffac2fdc9dbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114467980958137630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252009770408044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2913a658737983b45a2a181628d32865, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ANIMATOR_MAP: {fileID: 0}
+  ANIMATOR_MUSIC: {fileID: 0}
+  MUSIC_ACTIVE: 0
+  MAP_ACTIVE: 0
+--- !u!114 &114650742394476594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252009770408044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf23c2791a9140e4cab4cb3cbeebe3c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114892211547117310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252009770408044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d425370bc25ae846b0eb10a380d513c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MAP_OBJECT: {fileID: 0}
+  FOTO_OBJECT: {fileID: 0}
+  FOTOGRPHIC: {fileID: 0}
+  MAP: {fileID: 0}
+  FRAGMENTS_BUTTON:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  GM: {fileID: 0}
+  MAP_FRAGMENTS:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  FOTO_FRAGMENTS:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  MAP_ACTIVE: 0
+--- !u!114 &114971706756439650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252009770408044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fdef8ec316ae2446af26cdfd7758c9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasMenu: {fileID: 0}
+  canvasGame: {fileID: 0}
+  musicPanel: {fileID: 0}
+  folderPanel: {fileID: 0}
+  gamePanel: {fileID: 0}
+  cameraAR: {fileID: 0}
+  cameraNormal: {fileID: 0}
+  profilePanel: {fileID: 0}
+  menuPanel: {fileID: 0}
+  pointsText: {fileID: 0}
+  gM: {fileID: 0}
+  targetList: {fileID: 0}
+  endGameScript: {fileID: 0}
+  fileMapMenuScript: {fileID: 0}
